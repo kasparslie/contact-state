@@ -2,18 +2,18 @@ import React, {Component} from  'react'
 import './style.css'
 
 
-
 class Contact extends Component {
     render () {
+      const {fullName, status, image}=this.props;
       return (
         <div className="Contact">
-            <img src="https://i.ibb.co/VqNQKWj/lizars.jpg" className="avatar" alt="lizard"></img>
+            <img src={image} className="avatar"></img>
             <div>
-            <div className="name">John Dick
+            <div className="name">{fullName}
             </div>
             <div className="status">
-            <div className="status-online"></div>
-            <p className="status-text">Online</p>
+            <div className={status? "status-online" : "status-offline"}></div>
+            <div className="status-text">{status? 'online' : 'offline'}</div>
             </div>
             </div>
         </div>
