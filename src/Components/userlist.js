@@ -1,6 +1,6 @@
 const chaterBox = [
     {
-    fullName: 'John Dick',
+    fullname: 'John Dick',
     online: false,
     image: "https://i.ibb.co/VqNQKWj/lizars.jpg"
     },
