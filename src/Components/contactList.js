@@ -10,7 +10,7 @@ const usersList= [
     status: true
     },
     {
-    fullame: 'Vernon Mason',
+    fullname: 'Veron Veruio',
     image: 'https://randomuser.me/api/portraits/men/84.jpg',
     status: true
     },
